@@ -96,7 +96,8 @@ public class Camera {
               return;
             }
             // Convert the raw deg angle to the nearest multiple of 90.
-            currentOrientation = (int) Math.round(i / 90.0) * 90;
+            //currentOrientation = (int) Math.round(i / 90.0) * 90;
+            currentOrientation = 0; // freeze to portrait
           }
         };
     orientationEventListener.enable();
