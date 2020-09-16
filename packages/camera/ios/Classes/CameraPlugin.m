@@ -114,7 +114,7 @@ static FlutterError *getFlutterError(NSError *error) {
   // If none of the above, then the device is likely facing straight down or straight up -- just
   // pick something arbitrary
   // TODO: Maybe use the UIInterfaceOrientation if in these scenarios*/
-  return UIImageOrientationLeft;
+  return UIImageOrientationRight;
 }
 @end
 
